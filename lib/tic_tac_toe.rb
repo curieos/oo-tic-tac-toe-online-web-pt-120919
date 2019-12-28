@@ -98,9 +98,8 @@ class TicTacToe
   end
   
   def play
-    loop do
+    while !over?
       turn
-      break if !over?
     end
     
     if won?
