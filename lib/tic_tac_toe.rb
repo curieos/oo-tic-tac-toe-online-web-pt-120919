@@ -99,6 +99,7 @@ class TicTacToe
   
   def play
     loop do
+      turn
       break if !over?
     end
   end
