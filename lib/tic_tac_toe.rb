@@ -38,7 +38,11 @@ class TicTacToe
   end
   
   def valid_move(index)
-    
+    if index < 0 || index >= @board.length
+      false
+    else
+      !position_taken(index)
+    end
   end
 end
 
