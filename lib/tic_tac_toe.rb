@@ -74,7 +74,7 @@ class TicTacToe
   end
   
   def won?
-    
+    true
   end
   
   def full?
