@@ -33,3 +33,6 @@ class TicTacToe
     
   end
 end
+
+tictac = TicTacToe.new
+tictac.display_board
