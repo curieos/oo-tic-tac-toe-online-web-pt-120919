@@ -46,6 +46,7 @@ class TicTacToe
   end
   
   def turn
+    while !valid_move(index)
     puts "Please select a square (1-9):"
     input = gets.strip
     index = input_to_index(input)
