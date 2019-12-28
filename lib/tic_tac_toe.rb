@@ -94,6 +94,10 @@ class TicTacToe
   def over?
     draw? || full?
   end
+  
+  def winner
+    
+  end
 end
 
 tictac = TicTacToe.new
