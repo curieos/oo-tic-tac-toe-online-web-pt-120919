@@ -53,6 +53,7 @@ class TicTacToe
       index = input_to_index(input)
       break if valid_move(index)
     end
+    move()
   end
   
   def turn_count
@@ -64,4 +65,7 @@ class TicTacToe
     end
     count
   end
+  
+  def current_player
+    if
 end
