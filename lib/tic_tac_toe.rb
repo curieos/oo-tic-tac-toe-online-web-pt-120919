@@ -100,8 +100,10 @@ class TicTacToe
   def play
     loop do
       turn
-      break if !over?
+      break if over?
     end
+    
+    if won?
   end
 end
 
