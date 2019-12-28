@@ -41,7 +41,7 @@ class TicTacToe
     if index < 0 || index >= @board.length
       false
     else
-      !position_taken(index)
+      position_taken(index)
     end
   end
 end
