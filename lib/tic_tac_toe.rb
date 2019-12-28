@@ -110,6 +110,3 @@ class TicTacToe
     end
   end
 end
-
-tictac = TicTacToe.new
-tictac.display_board
