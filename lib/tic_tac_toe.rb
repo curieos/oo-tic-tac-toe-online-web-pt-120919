@@ -46,6 +46,7 @@ class TicTacToe
   end
   
   def turn
+    puts "Please select a square (1-9):"
     
   end
   
