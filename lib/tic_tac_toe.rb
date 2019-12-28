@@ -37,7 +37,7 @@ class TicTacToe
     @board[index] == " " ? false : true
   end
   
-  def valid_move(index)
+  def valid_move?(index)
     if index < 0 || index >= @board.length
       false
     else
