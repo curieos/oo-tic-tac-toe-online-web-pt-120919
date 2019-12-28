@@ -18,8 +18,11 @@ class TicTacToe
   end
   
   def display_board
-    index
-    puts "#"
+    index = 0
+    while index < @board.length
+      puts "#{@board[index]} | #{@board[index+1]} | #{@board[index+2]}"
+      index += 3
+    end
   end
   
   def input_to_index
