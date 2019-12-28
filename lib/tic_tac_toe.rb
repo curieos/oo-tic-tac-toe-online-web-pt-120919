@@ -55,7 +55,7 @@ class TicTacToe
         break
       end
     end
-    move()
+    
   end
   
   def turn_count
