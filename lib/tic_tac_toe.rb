@@ -104,7 +104,7 @@ class TicTacToe
     end
     
     if won?
-      
+      puts
     else
       
     end
