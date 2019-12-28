@@ -47,7 +47,7 @@ class TicTacToe
   
   def turn
     puts "Please select a square (1-9):"
-    input = gets
+    input = gets.strip
     
   end
   
