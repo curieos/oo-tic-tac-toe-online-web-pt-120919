@@ -21,6 +21,7 @@ class TicTacToe
     index = 0
     while index < @board.length-1
       puts " #{@board[index]} | #{@board[index+1]} | #{@board[index+2]} "
+      puts "-----------"
       index += 3
     end
   end
