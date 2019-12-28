@@ -52,9 +52,7 @@ class TicTacToe
       puts "Please select a square (1-9):"
       input = gets.strip
       index = input_to_index(input)
-      if valid_move?(index)
-        break
-      end
+      break if valid_move?(index)
     end
     move(index, current_player)
     display_board
@@ -97,6 +95,12 @@ class TicTacToe
   
   def winner
     @board[won?[0]] if won?
+  end
+  
+  def play
+    loop do
+      break if !over?
+    end
   end
 end
 
