@@ -46,15 +46,12 @@ class TicTacToe
   end
   
   def turn
+    index = 0
     loop do
-      break if !valid_move(index)
-    puts "Please select a square (1-9):"
-    input = gets.strip
-    index = input_to_index(input)
-    if valid_move(index)
-      
-    else
-      
+      puts "Please select a square (1-9):"
+      input = gets.strip
+      index = input_to_index(input)
+      break if valid_move(index)
     end
   end
   
