@@ -18,6 +18,7 @@ class TicTacToe
   end
   
   def display_board
+    index
     puts "#"
   end
   
