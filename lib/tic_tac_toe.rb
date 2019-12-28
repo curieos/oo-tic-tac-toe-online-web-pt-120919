@@ -32,6 +32,10 @@ class TicTacToe
   def move(i, token = "X")
     
   end
+  
+  def position_taken?
+    
+  end
 end
 
 tictac = TicTacToe.new
