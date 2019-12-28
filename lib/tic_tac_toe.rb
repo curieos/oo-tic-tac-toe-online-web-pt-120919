@@ -90,3 +90,6 @@ class TicTacToe
     draw? || full?
   end
 end
+
+tictac = TicTacToe.new
+tictac.display_board
