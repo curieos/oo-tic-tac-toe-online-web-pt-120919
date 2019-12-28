@@ -51,7 +51,7 @@ class TicTacToe
       puts "Please select a square (1-9):"
       input = gets.strip
       index = input_to_index(input)
-      if valid_move(index)
+      if valid_move?(index)
         break
       end
     end
