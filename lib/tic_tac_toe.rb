@@ -78,6 +78,7 @@ class TicTacToe
     WIN_COMBINATIONS.each do |combo|
       if 
     end
+    false
   end
   
   def full?
