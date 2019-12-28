@@ -50,7 +50,7 @@ class TicTacToe
     index = 0
     loop do
       puts "Please select a square (1-9):"
-      input = gets.strip
+      input = gets
       index = input_to_index(input)
       break if valid_move?(index)
     end
@@ -106,7 +106,7 @@ class TicTacToe
     if won?
       puts
     else
-      
+      puts "Cat's Game!"
     end
   end
 end
