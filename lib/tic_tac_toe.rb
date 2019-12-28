@@ -44,7 +44,14 @@ class TicTacToe
       !position_taken?(index)
     end
   end
+  
+  def turn_count
+    count = 0
+    @board.each do |space|
+      if space != " "
+        count += 1
+      end
+    end
+    count
+  end
 end
-
-tictac = TicTacToe.new
-tictac.display_board
