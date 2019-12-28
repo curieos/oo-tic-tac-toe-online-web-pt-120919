@@ -88,7 +88,7 @@ class TicTacToe
   end
   
   def draw?
-    full? && !won
+    full? && won.length != 3
   end
   
   def over?
