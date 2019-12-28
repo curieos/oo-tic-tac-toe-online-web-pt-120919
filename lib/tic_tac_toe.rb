@@ -45,6 +45,10 @@ class TicTacToe
     end
   end
   
+  def turn
+    
+  end
+  
   def turn_count
     count = 0
     @board.each do |space|
